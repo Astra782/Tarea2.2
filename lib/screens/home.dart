@@ -8,10 +8,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String avatarImagePath = userEmail == 'rjorellanap@unah.hn'
-        ? 'assets/images/pfp.jpg'
-        : 'assets/images/logo.jpg';
-
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 18, 19, 19),
       appBar: AppBar(
@@ -78,8 +74,7 @@ class HomePage extends StatelessWidget {
             },
             child: Container(
               margin: const EdgeInsets.all(6.0),
-              child: CircleAvatar(
-                backgroundImage: AssetImage(avatarImagePath),
+              child: const CircleAvatar(
                 radius: 25.0,
               ),
             ),

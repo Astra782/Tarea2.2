@@ -27,12 +27,14 @@ class WelcomeScreen extends StatelessWidget {
                         TextSpan(
                             text: '¡Bienvenido!\n',
                             style: TextStyle(
+                              color: Colors.black38,
                               fontSize: 45.0,
                               fontWeight: FontWeight.w600,
                             )),
                         TextSpan(
                             text: '\nIngrese datos personales',
                             style: TextStyle(
+                              color: Colors.black38,
                               fontSize: 20,
                               // height: 0,
                             ))
@@ -53,7 +55,7 @@ class WelcomeScreen extends StatelessWidget {
                       onTap: SignInScreen(),
                       //Sign in, accion
                       color: Colors.transparent,
-                      textColor: Colors.white,
+                      textColor: Colors.black87,
                     ),
                   ),
                   Expanded(
