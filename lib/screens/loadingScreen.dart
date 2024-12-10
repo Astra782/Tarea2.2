@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app_de_autenticacion/screens/signinScreen.dart';
+import 'package:tarea2_2/screens/signinScreen.dart';
 
 class LoadingScreen extends StatefulWidget {
   const LoadingScreen({Key? key}) : super(key: key);

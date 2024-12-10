@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 
 class CustomScaffold extends StatelessWidget {
@@ -15,7 +16,7 @@ class CustomScaffold extends StatelessWidget {
       body: Stack(
         children: [
           Image.asset(
-            'assets/images/wall.jpg',
+            'assets/images/wallp.jpg',
             fit: BoxFit.cover,
             width: double.infinity,
             height: double.infinity,
